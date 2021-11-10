@@ -10,10 +10,10 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom("METEOR@1.1");
+  api.versionsFrom(['1.8.1','2.3']);
 
 	api.use([
-		'accounts-base@1.2.0',
+		'accounts-base',
 		'underscore@1.0.3'
 	], ['server']);
 
