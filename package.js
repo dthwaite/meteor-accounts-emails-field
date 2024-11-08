@@ -10,11 +10,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['1.8.1','2.3']);
+  api.versionsFrom(['1.8.1','2.3','3.0]);
 
 	api.use([
 		'accounts-base',
-		'underscore@1.0.3'
+		'underscore@1.0.3 || 3.0.0'
 	], ['server']);
 
 	api.imply([
